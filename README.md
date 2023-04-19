@@ -24,27 +24,28 @@ Number of Attributes: 16
 
 ## Final Result Table
 
-| Sample  | Best Accuracy | Best Kernel | Best Nu | Best Epsilon |
-| -----   | ------------- | ----------- | ------- | ------------ |
-| 1 | 0.88 | Poly | 5.82 | 4.35 |
-| 2 | 0.95 | Linear | 5.13 | 0.30 |
-| 3 | 0.96 | Linear | 3.13 | 6.32 |
-| 4 | 0.96 | Poly | 1.49 | 3.26 |
-| 5 | 0.91 | Linear | 3.52 | 7.34 |
-| 6 | 0.83 | RBF | 5.60 | 3.14 |
-| 7 | 0.95 | Poly | 0.29 | 7.71 |
-| 8 | 0.95 | Poly | 4.87 | 5.57 |
-| 9 | 0.97 | Poly | 1.27 | 6.87 |
-| 10 | 0.92 | Poly | 0.34 | 5.50 |
+
+|index|Sample|Best Accuracy|Best Kernel|Best Nu|Best Epsilon|
+|---|---|---|---|---|---|
+|0|1|0.91|poly|4.5|9.57|
+|1|2|0.98|rbf|9.89|0.08|
+|2|3|0.96|poly|5.33|1.46|
+|3|4|0.9|linear|9.24|1.93|
+|4|5|0.96|poly|6.86|0.4|
+|5|6|0.84|poly|8.83|8.33|
+|6|7|0.94|linear|3.14|1.89|
+|7|8|0.96|linear|5.08|2.15|
+|8|9|0.88|linear|3.84|0.7|
+|9|10|0.89|linear|9.09|1.61|
 
 ## Convergence Graph
-
+![Screenshot](ConvergenceGraph.png)
 
 
 ## Discussion
 From the above graph, we can conclude that the model is well trained and parameter have been optimized due to the less gap between training and cross-validation curve.
 
-The graph is made for the sample which has best accuracy. Sample 9 has the best accuracy of 0.97 having kernel = Poly, Nu = 1.27 and Epsilon = 6.87.
+The graph is made for the sample which has best accuracy. Sample 9 has the best accuracy of 0.98 having kernel = rbf, Nu = 9.89 and Epsilon = 0.08.
 
 ## Written By
 Name : Pulkit

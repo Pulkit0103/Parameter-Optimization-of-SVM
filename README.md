@@ -38,7 +38,7 @@ Number of Attributes: 16
 | 10 | 0.92 | Poly | 0.34 | 5.50 |
 
 ## Convergence Graph
-![Screenshot](ConvergenceGraph.png)
+
 
 
 ## Discussion

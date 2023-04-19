@@ -38,7 +38,7 @@ Number of Attributes: 16
 | 10 | 0.92 | Poly | 0.34 | 5.50 |
 
 ## Convergence Graph
-
+![Screenshot](Convergence Graph.png)
 
 ## Discussion
 From the above graph, we can conclude that the model is well trained and parameter have been optimized due to the less gap between training and cross-validation curve.
